@@ -1,0 +1,6 @@
+Project 1 — One Page Responsive Layout
+Objective: Recreate a pixel perfect design, and solve responsive design problems.
+
+
+Project 2 — Multi-Page Responsive Website
+Objective: Recreate a pixel perfect design, and solve responsive design problems.
