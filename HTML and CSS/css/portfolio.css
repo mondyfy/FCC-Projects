@@ -65,3 +65,20 @@ nav.my_navbar {
 .my_socials ul li{
     display: inline-flex;
 }
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style-type:none; 
+}
+.top{
+    margin-top: 50px;
+}
+.pad{
+    padding-top: 13%;
+}
+.my_banner{
+    background:url(image)
+}
