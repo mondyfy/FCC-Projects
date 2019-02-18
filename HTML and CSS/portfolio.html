@@ -1,14 +1,71 @@
-</<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/portfolio.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="fat-nav/dist/jquery.fatNav.css">
 </head>
+
 <body>
-    
+    <nav class="my_navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#">
+                    Professional <span> CV</span>
+                </a>
+            </div>
+            <div class="right">
+                <div class="my_socials">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/sandip.basnet.19" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fab fa-vk"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fab fa-github"></span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span class="fab fa-twitter"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+   
+    <div class="fat-nav">
+            <div class="fat-nav__wrapper">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Stats</a></li>
+            <li><a href="#">Experience</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Buy Me a coffee</a></li>
+        </ul>
+    </div>
+    </div>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="fat-nav/src/js/jquery.fatNav.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            (function () {
+                $.fatNav();
+            }());
+        });
+    </script>
+
 </body>
+
 </html>

@@ -1,0 +1,40 @@
+</<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/survey-form.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <form method="POST">
+
+        Name:<input type="text" name="name" placeholder="Enter your Name" required>
+        Email:<input type="email" name="email" placeholder="Enter your Email" required>
+        <label> Gender</label><br>
+        Male:<input type="radio" name="gender" value="male" checked>
+        Female:<input type="radio" name="gender" value="female">
+        Others:<input type="radio" name="gender" value="other">
+        Message: <textarea name="message" placeholder="Enter your message!"></textarea>
+        <label> Select the cars you enjoy most</label>
+        <select name="car">
+            <option value="None">None</option>
+            <option value="car1">Ford</option>
+            <option value="car2">Mercedes</option>
+            <option value="car3">Lambergini</option>
+
+
+
+        </select>
+
+        <button type="submit" name="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
